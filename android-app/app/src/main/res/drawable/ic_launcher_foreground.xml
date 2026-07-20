@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Moeda: círculo dourado grande (safe zone: 26..82) -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M54,22
+                          C36.33,22 22,36.33 22,54
+                          C22,71.67 36.33,86 54,86
+                          C71.67,86 86,71.67 86,54
+                          C86,36.33 71.67,22 54,22 Z" />
+
+    <!-- Aro interior mais claro (dá volume à moeda) -->
+    <path
+        android:strokeColor="#FFF3C4"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M54,28
+                          C39.64,28 28,39.64 28,54
+                          C28,68.36 39.64,80 54,80
+                          C68.36,80 80,68.36 80,54
+                          C80,39.64 68.36,28 54,28 Z" />
+
+    <!-- Símbolo € — arco em C -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M68,40
+                          C60,35 48,36 43,44
+                          C40,49 40,59 43,64
+                          C48,72 60,73 68,68" />
+
+    <!-- Barras horizontais do € -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,50 L58,50 M34,58 L58,58" />
+</vector>

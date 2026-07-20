@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cofrinho de Metas — aplicação Android para gerir as tuas poupanças pessoais por meta.">
+    <title>Cofrinho de Metas — Aplicação Android</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+    <div class="wrap topo-inner">
+        <a href="#" class="marca">
+            <span class="logo">💰</span>
+            <span>Cofrinho de Metas</span>
+        </a>
+        <nav>
+            <a href="#funcionalidades">Funcionalidades</a>
+            <a href="#screencast">Screencast</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#autor">Autor</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="wrap hero-inner">
+        <div class="hero-texto">
+            <h1>Poupa com propósito.</h1>
+            <p class="lead">
+                O <strong>Cofrinho de Metas</strong> é uma aplicação Android que te ajuda
+                a organizar as tuas poupanças por objetivo — uma viagem, um portátil,
+                um fundo de emergência. Cria a meta, regista depósitos e vê o teu
+                progresso em tempo real.
+            </p>
+            <div class="cta">
+                <a href="#screencast" class="btn primario">Ver em ação</a>
+                <a href="#funcionalidades" class="btn secundario">O que faz</a>
+            </div>
+        </div>
+        <div class="hero-mock" aria-hidden="true">
+            <div class="telefone">
+                <div class="tela">
+                    <div class="tela-topo">Cofrinho de Metas</div>
+                    <div class="cartao" style="--cor:#1976D2">
+                        <div class="cartao-cabec">
+                            <span class="icone">✈️</span>
+                            <span class="titulo">Viagem a Lisboa</span>
+                            <span class="perc">31%</span>
+                        </div>
+                        <div class="barra"><div style="width:31%"></div></div>
+                        <div class="linha-info">125,00 € de 400,00 €</div>
+                    </div>
+                    <div class="cartao" style="--cor:#7B1FA2">
+                        <div class="cartao-cabec">
+                            <span class="icone">💻</span>
+                            <span class="titulo">Portátil novo</span>
+                            <span class="perc">22%</span>
+                        </div>
+                        <div class="barra"><div style="width:22%"></div></div>
+                        <div class="linha-info">200,00 € de 900,00 €</div>
+                    </div>
+                    <div class="cartao" style="--cor:#388E3C">
+                        <div class="cartao-cabec">
+                            <span class="icone">🛡️</span>
+                            <span class="titulo">Fundo emergência</span>
+                            <span class="perc">23%</span>
+                        </div>
+                        <div class="barra"><div style="width:23%"></div></div>
+                        <div class="linha-info">350,00 € de 1 500,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="funcionalidades" class="secao">
+    <div class="wrap">
+        <h2>Funcionalidades</h2>
+        <div class="grelha">
+            <article class="cartao-info">
+                <div class="ico">🎯</div>
+                <h3>Metas com objetivo</h3>
+                <p>Cria uma meta com nome, valor a atingir, prazo, cor e ícone.</p>
+            </article>
+            <article class="cartao-info">
+                <div class="ico">💶</div>
+                <h3>Depósitos</h3>
+                <p>Regista quanto poupaste e quando. Cada depósito atualiza o progresso automaticamente.</p>
+            </article>
+            <article class="cartao-info">
+                <div class="ico">📈</div>
+                <h3>Progresso visual</h3>
+                <p>Barras de progresso, percentagem e valor em falta em cada meta.</p>
+            </article>
+            <article class="cartao-info">
+                <div class="ico">🔎</div>
+                <h3>Pesquisa</h3>
+                <p>Encontra rapidamente qualquer meta pelo nome, mesmo com muitas em curso.</p>
+            </article>
+            <article class="cartao-info">
+                <div class="ico">🗑️</div>
+                <h3>Editar e eliminar</h3>
+                <p>Qualquer meta pode ser editada ou eliminada — os depósitos associados são removidos em cascata.</p>
+            </article>
+            <article class="cartao-info">
+                <div class="ico">📱</div>
+                <h3>100% offline</h3>
+                <p>Base de dados local no telemóvel — sem conta, sem internet, sem tracking.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="screencast" class="secao alt">
+    <div class="wrap">
+        <h2>Screencast</h2>
+        <p class="sub">Demonstração da aplicação com ~3 minutos.</p>
+        <div class="video-placeholder">
+            <div class="video-inner">
+                <span class="play">▶</span>
+                <span>screencast.mp4</span>
+                <small>substituir por &lt;video&gt; ou embed do YouTube quando publicado</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tecnologias" class="secao">
+    <div class="wrap">
+        <h2>Tecnologias</h2>
+        <ul class="chips">
+            <li>Kotlin</li>
+            <li>Jetpack Compose</li>
+            <li>Material 3</li>
+            <li>Room (SQLite)</li>
+            <li>MVVM</li>
+            <li>Navigation Compose</li>
+            <li>Coroutines &amp; Flow</li>
+            <li>Android Studio</li>
+        </ul>
+    </div>
+</section>
+
+<section id="autor" class="secao alt">
+    <div class="wrap centrado">
+        <h2>Autor</h2>
+        <p class="autor">
+            <strong>Ronaldino Fernandes Chihita</strong><br>
+            Curso de Tecnologias Web e Dispositivos Móveis<br>
+            Escola Superior de Tecnologia e Gestão — IPBeja
+        </p>
+        <p>
+            <a href="https://github.com/ronaldinochihita" class="btn secundario" target="_blank" rel="noopener">GitHub</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div class="wrap">
+        <p>&copy; Cofrinho de Metas — Projeto académico da UC Programação de Aplicação do Lado do Cliente (PAC), IPBeja.</p>
+    </div>
+</footer>
+
+</body>
+</html>

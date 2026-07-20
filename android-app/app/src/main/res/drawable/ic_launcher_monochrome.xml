@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Ícone monocromático para "themed icons" do Android 13+.
+    O sistema recolori-o automaticamente para se harmonizar com o wallpaper.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Contorno da moeda -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M54,24
+                          C37.43,24 24,37.43 24,54
+                          C24,70.57 37.43,84 54,84
+                          C70.57,84 84,70.57 84,54
+                          C84,37.43 70.57,24 54,24 Z" />
+
+    <!-- Arco em C do € -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M68,40
+                          C60,35 48,36 43,44
+                          C40,49 40,59 43,64
+                          C48,72 60,73 68,68" />
+
+    <!-- Barras horizontais do € -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,50 L58,50 M34,58 L58,58" />
+</vector>

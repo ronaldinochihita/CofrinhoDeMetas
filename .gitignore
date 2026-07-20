@@ -1,0 +1,21 @@
+# --- macOS / IDE ---
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# --- Android / Gradle ---
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+app/build/
+app/release/
+.kotlin/
+
+# --- Ficheiros temporários e de sistema ---
+*.log
+*.tmp
+Thumbs.db
