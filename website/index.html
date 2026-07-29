@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cofrinho de Metas — aplicação Android para gerir as tuas poupanças pessoais por meta.">
+    <meta name="theme-color" content="#2E7D32">
+    <meta name="description" content="Cofrinho de Metas — aplicação Android para gerir as tuas poupanças pessoais por meta. Cria objetivos, regista depósitos e vê o teu progresso em tempo real.">
+    <meta name="author" content="Ronaldino Fernandes Chihita">
+    <meta name="keywords" content="poupança, metas, android, kotlin, jetpack compose, ipbeja, aplicação móvel">
+
+    <!-- Open Graph (preview em WhatsApp, Facebook, LinkedIn, Slack) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cofrinho de Metas — Aplicação Android">
+    <meta property="og:description" content="Poupa com propósito. App Android para organizar as tuas poupanças por objetivo, com progresso visual e sem necessidade de conta.">
+    <meta property="og:locale" content="pt_PT">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cofrinho de Metas">
+    <meta name="twitter:description" content="Poupa com propósito. App Android para gerir metas de poupança.">
+
     <title>Cofrinho de Metas — Aplicação Android</title>
+
+    <!-- Favicon SVG inline: moeda dourada com € verde -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23F9A825'/><circle cx='50' cy='50' r='36' fill='none' stroke='%23FFF3C4' stroke-width='4'/><text x='50' y='68' font-size='58' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' fill='%231B5E20'>%E2%82%AC</text></svg>">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -117,13 +136,15 @@
 <section id="screencast" class="secao alt">
     <div class="wrap">
         <h2>Screencast</h2>
-        <p class="sub">Demonstração da aplicação com ~3 minutos.</p>
-        <div class="video-placeholder">
-            <div class="video-inner">
-                <span class="play">▶</span>
-                <span>screencast.mp4</span>
-                <small>substituir por &lt;video&gt; ou embed do YouTube quando publicado</small>
-            </div>
+        <p class="sub">Demonstração da aplicação em execução — Cofrinho de Metas.</p>
+        <div class="video-wrap">
+            <video controls preload="metadata" playsinline
+                   poster="" style="width:100%; max-width:900px; border-radius:16px;
+                                    box-shadow: 0 6px 22px rgba(0,0,0,.18); background:#000;">
+                <source src="screencast.webm" type="video/webm">
+                O teu browser não suporta reprodução de vídeo WebM.
+                <a href="screencast.webm">Descarrega o vídeo</a>.
+            </video>
         </div>
     </div>
 </section>

@@ -19,3 +19,7 @@ app/release/
 *.log
 *.tmp
 Thumbs.db
+
+# --- Deploy Netlify (a pasta website/ tem cópia local do vídeo, mas o vídeo
+#     canónico está em screencast/screencast.webm — evitar duplicar 53 MB). ---
+website/screencast.webm

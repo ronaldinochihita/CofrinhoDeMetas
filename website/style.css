@@ -153,23 +153,22 @@ body {
 .cartao-info h3 { font-size: 18px; margin-bottom: 6px; color: var(--verde-escuro); }
 .cartao-info p { color: var(--cinza-suave); font-size: 15px; }
 
-/* Screencast placeholder */
-.video-placeholder {
-    background: #111; border-radius: var(--raio);
-    aspect-ratio: 16 / 9; max-width: 800px;
-    margin: 0 auto; overflow: hidden;
-    display: flex; align-items: center; justify-content: center;
+/* Screencast — vídeo embebido (portrait, formato telemóvel) */
+.video-wrap {
+    display: flex; justify-content: center;
+    margin-top: 20px;
 }
-.video-inner {
-    color: rgba(255,255,255,.9); text-align: center;
-    display: flex; flex-direction: column; gap: 6px; align-items: center;
+.video-wrap video {
+    display: block;
+    width: 100%;
+    max-width: 360px;      /* largura de telemóvel */
+    max-height: 78vh;      /* nunca ultrapassa a altura visível */
+    height: auto;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.22);
+    background: #000;
+    object-fit: contain;
 }
-.video-inner .play {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 68px; height: 68px; border-radius: 999px;
-    background: rgba(255,255,255,.15); font-size: 26px;
-}
-.video-inner small { opacity: .6; }
 
 /* Chips tecnologias */
 .chips {
